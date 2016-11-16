@@ -1,0 +1,40 @@
+{
+  "name": "character-count",
+  "version": "0.0.1",
+  "description": "Simple character and word counter",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zsoltime/character-count.git"
+  },
+  "scripts": {
+    "test": "mocha",
+    "gulp": "gulp"
+  },
+  "author": "Zsolt Meszaros",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "browser-sync": "^2.17.5",
+    "chai": "^3.5.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-jade": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-lint": "^1.2.0",
+    "gulp-uglify": "^2.0.0",
+    "mocha": "^3.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/zsoltime/character-count/issues"
+  },
+  "homepage": "https://github.com/zsoltime/character-count#readme",
+  "directories": {
+    "test": "test"
+  }
+}

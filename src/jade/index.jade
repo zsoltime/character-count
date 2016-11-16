@@ -1,0 +1,16 @@
+extends layout
+block title
+  title Character and Word Count Tool
+block content
+  .container
+    h1 Char#[span Count]#[span +]
+    h3 A Lightweight Character Counter Tool
+    textarea#text(autofocus, rows='12', placeholder='Start typing or copy ' +
+    'and paste your text here...')
+    .counters
+      .character #[span(id='chars') 0] #[span Characters]
+      .word #[span(id='words') 0] #[span Words]
+      .sentences #[span(id='sentences') 0] #[span Sentences]
+      .paragraphs #[span(id='paragraphs') 0] #[span Paragraphs]
+      .whitespace #[span(id='whitespace') 0] #[span Whitespace]
+      .time #[span(id='time') 0 min] #[span Reading Time]
